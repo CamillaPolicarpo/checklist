@@ -1,0 +1,95 @@
+/* styles.css */
+
+.check-list {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6de7359f;
+}
+
+
+* {
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: rgba(255, 255, 255, 0.81);
+    padding: 0px 2px;
+    font-family: iawriter-mono, Nitti, Menlo, Courier, monospace;
+    font-weight: 50px;
+    font-size: 20px;
+    line-height: 10px;
+    margin: 10px;
+}
+
+body {
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    text-align:center;
+    color: #dbddda;
+    font-size: 80px;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div h2 {
+    text-align:center;
+    margin-top: 0%;
+    display: center;
+    color: rgb(206, 198, 226);
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+form input {
+    text-align:center;
+    font-size: 20px;
+    background-color: #252c249d;
+    border: none;
+    border-bottom: 0px solid #ffffff;
+    padding: 10px;
+}
+
+form button {
+    width: 40px;
+    background-color: #1e271785;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+}
+
